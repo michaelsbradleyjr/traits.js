@@ -1,0 +1,11 @@
+bower_components
+node_modules
+
+bower.json
+npm-debug.log
+traits.min.js.gz
+scripts
+support
+test
+.npmignore
+.travis.yml

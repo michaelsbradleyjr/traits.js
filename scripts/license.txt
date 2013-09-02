@@ -1,0 +1,29 @@
+/*///////////////////////////// TRAITS.JS //////////////////////////////
+ *
+ * Version 0.4.0
+ * Trait composition library for JavaScript
+ * https://github.com/michaelsbradleyjr/traits.js
+ *
+ * This software is Copyright (c) 2013 by Michael Bradley, Jr.
+ *
+ * The use and distribution terms for this software are covered by the
+ * Apache License, Version 2.0:
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * http://michaelsbradleyjr.github.io/traits.js/LICENSE.txt
+ *
+ * By using this software in any fashion, you are agreeing to be bound
+ * by the terms of this license. You must not remove this notice, or any
+ * other, from this software.
+ *
+ //////////////////////////////// CREDIT ///////////////////////////////
+ *
+ * This software is adapted from an existing work:
+ *
+ *  http://soft.vub.ac.be/~tvcutsem/traitsjs/
+ *
+ * For the original license text please refer to:
+ * https://github.com/michaelsbradleyjr/traits.js/tree/master/licenses
+ *
+ /*/////////////////////////////////////////////////////////////////////
+

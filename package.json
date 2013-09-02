@@ -1,0 +1,55 @@
+{
+    "name": "traits.js",
+    "version": "0.4.0",
+    "description": "Trait composition library for JavaScript",
+    "homepage": "https://github.com/michaelsbradleyjr/traits.js",
+    "author": "Michael Bradley, Jr. <michaelsbradleyjr@gmail.com> (https://github.com/michaelsbradleyjr)",
+    "keywords": [
+        "composition",
+        "inheritance",
+        "interface",
+        "multiple",
+        "trait"
+    ],
+    "contributors": [
+        "Michael Bradley, Jr. <michaelsbradleyjr@gmail.com> (https://github.com/michaelsbradleyjr)",
+        "Matthew Moss (https://github.com/mattmoss)",
+        "Tom Van Cutsem <tvcutsem@vub.ac.be> (https://github.com/tvcutsem)"
+    ],
+    "bugs": {
+        "mail": "michaelsbradleyjr@gmail.com",
+        "url": "https://github.com/michaelsbradleyjr/traits.js/issues"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "http://michaelsbradleyjr.github.io/traits.js/LICENSE.txt"
+        }
+    ],
+    "main": "./traits.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/michaelsbradleyjr/traits.js.git"
+    },
+    "engines": {
+        "node": ">=0.8.22"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "1.7.x",
+        "mocha": "1.12.x",
+        "sinon": "1.7.x",
+        "sinon-chai": "2.4.x",
+        "uglify-js": "2.4.x"
+    },
+    "scripts": {
+        "bump": "npm run-script bump-min",
+        "bump-min": "./scripts/bump-min.sh",
+        "prepublish": "npm run-script bump",
+        "test": "mocha test/*.js",
+        "test-watch": "mocha -w test/*.js"
+    },
+    "directories": {
+        "test": "./test"
+    }
+}
