@@ -10,7 +10,7 @@
         ".gitignore",
         ".npmignore",
         ".travis.yml",
-        "traits.min.js.gz",
+        "traits.min.js.gz"
     ],
     "dependencies": {}
 }
