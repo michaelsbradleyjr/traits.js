@@ -93,7 +93,7 @@ $ http-server -p 12345 -c-1
 
 Then point your browser/s to `http://localhost:12345/test/` &nbsp;or&nbsp; `http://localhost:12345/test/amd.html`.
 
-You can also load the test suite as located on the `gh-pages` site for this repo: [script tag](http://michaelsbradleyjr.github.io/traits.js/test/), [amd](http://michaelsbradleyjr.github.io/traits.js/test/amd.html).
+You can also load the test suite as located on the `gh-pages` site for this repo: &nbsp;[script tag](http://michaelsbradleyjr.github.io/traits.js/test/), &nbsp;[amd](http://michaelsbradleyjr.github.io/traits.js/test/amd.html).
 
 ## Bugs
 
