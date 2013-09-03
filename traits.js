@@ -1,6 +1,6 @@
 /*///////////////////////////// TRAITS.JS //////////////////////////////
  *
- * Version 0.4.0
+ * Version 0.4.1-pre
  * Trait composition library for JavaScript
  * https://github.com/michaelsbradleyjr/traits.js
  *
