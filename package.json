@@ -48,8 +48,8 @@
         "bump": "npm run-script bump-min",
         "bump-min": "./scripts/bump-min.sh",
         "prepublish": "npm run-script bump",
-        "test": "mocha test/*.js",
-        "test-watch": "mocha -w test/*.js"
+        "test": "mocha -R spec",
+        "test-watch": "mocha -w -R min"
     },
     "directories": {
         "test": "./test"
