@@ -2,31 +2,60 @@
 
 # traits.js
 
-A pseudo-fork of the original [traits.js](http://soft.vub.ac.be/~tvcutsem/traitsjs/) library by [Tom Van Cutsem](http://soft.vub.ac.be/soft/members/tomvancutsem).
+[Trait](https://en.wikipedia.org/wiki/Trait_(computer_programming) composition library for JavaScript.
 
-## Motivation
+## Description
 
-By forking, retooling and experimenting with the original *traits.js*, the goal is to come to a deeper understanding of the concepts, implementation, benefits and trade-offs of traits-based composition in JavaScript.
+This library is a pseudo-fork of the original [traits.js](http://soft.vub.ac.be/~tvcutsem/traitsjs/) by [Tom Van Cutsem](http://soft.vub.ac.be/soft/members/tomvancutsem).
+
+It will share some similarities with another *traits.js* derivative, [light-traits](https://github.com/Gozala/light-traits/) by [Irakli Gozalishvili](https://github.com/Gozala), e.g. ECMAScript 5 shims will (eventually) *not* be included in the core library. However, it's intended to be a fresh start built atop the same original.
 
 ## Goals
 
+By retooling and experimenting with the original *traits.js*, the primary goal is to come to a deeper understanding of the concepts, implementation, benefits and trade-offs of traits-based composition in JavaScript.
+
 In time, this fork will explore the possibility of leveraging traits as a basis for *gradual typing* in JavaScript libraries, along the lines of Clojure's [core.typed](https://github.com/clojure/core.typed).
 
-A more immediate goal is to leverage traits on top of [Google Polymer](http://www.polymer-project.org/), providing a mechanism for [Custom Element](http://www.w3.org/TR/custom-elements/) *composition* which is complementary to prototypal inheritance, e.g. the `extends` mechanism of [polymer-element](http://www.polymer-project.org/polymer.html).
+A more immediate goal is to leverage traits on top of [Google Polymer](http://www.polymer-project.org/), providing a mechanism for [Custom Element](http://www.w3.org/TR/custom-elements/) *composition* which is complementary to prototypal inheritance, e.g. the `extends` feature of [polymer-element](http://www.polymer-project.org/polymer.html). To that end, this library specifically targets [bower](http://bower.io/), which presently seems to be the favored system for distributing Web Components and expressing dependencies between them.
 
 ## Installation
 
-You can install the latest release via [npm](https://npmjs.org/package/traits.js):
+You can install the latest release via [bower](http://bower.io/):
+
+```shell
+bower install traits.js
+```
+
+It is also available through [npm](https://npmjs.org/package/traits.js):
 
 ```shell
 npm install traits.js
 ```
 
-It is also available through [bower](http://bower.io/):
+The installed package contains two consumable JavaScript files, `traits.js` and `traits.min.js`.
 
-```shell
-bower install traits.js
+## Usage
+
+Load *traits.js* in your Node.js programs as you would any other module:
+
+```javascript
+var Trait = require("traits.js").Trait;
 ```
+
+In a browser, you can load *traits.js* with a `<script>` tag, as you would any other JavaScript library:
+
+```html
+<script src="traits.min.js" type="text/javascript"></script>
+<script>
+  Trait = traits.Trait;
+</script>
+```
+
+You can also load it as an AMD module, e.g. with [RequireJS](http://requirejs.org/).
+
+## API and Examples
+
+Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the initial `0.4.0` release, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;*[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html)*, &nbsp;*[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html)*, &nbsp;*[HowToNode article](http://howtonode.org/traitsjs)*, &nbsp;*[2011 PLASTIC Workshop paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf)*.
 
 ## Bugs
 
