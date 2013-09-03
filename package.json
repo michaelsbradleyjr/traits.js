@@ -5,11 +5,14 @@
     "homepage": "https://github.com/michaelsbradleyjr/traits.js",
     "author": "Michael Bradley, Jr. <michaelsbradleyjr@gmail.com> (https://github.com/michaelsbradleyjr)",
     "keywords": [
+        "compose",
         "composition",
         "inheritance",
         "interface",
+        "interfaces",
         "multiple",
-        "trait"
+        "trait",
+        "traits"
     ],
     "contributors": [
         "Michael Bradley, Jr. <michaelsbradleyjr@gmail.com> (https://github.com/michaelsbradleyjr)",
