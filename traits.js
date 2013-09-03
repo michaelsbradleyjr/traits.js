@@ -28,7 +28,7 @@
  /*/////////////////////////////////////////////////////////////////////
 
 ;(function (definition) {
-    // Wrapper and several helpers were adapted from Q:
+    // Wrapper adapted from Q:
     // https://github.com/kriskowal/q/blob/master/q.js
 
     // This file will function properly as a <script> tag, or a module
