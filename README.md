@@ -2,7 +2,7 @@
 
 # traits.js
 
-[Trait](https://en.wikipedia.org/wiki/Trait_(computer_programming) composition library for JavaScript.
+[Trait](https://en.wikipedia.org/wiki/Trait_(computer_programming)) composition library for JavaScript.
 
 ## Description
 
