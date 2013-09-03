@@ -6,10 +6,12 @@
         "bower_components",
         "node_modules",
         "scripts",
+        "support",
         "test",
         ".gitignore",
         ".npmignore",
         ".travis.yml",
+        "npm-debug.log",
         "traits.min.js.gz"
     ],
     "dependencies": {}

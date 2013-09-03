@@ -16,20 +16,20 @@ By retooling and experimenting with the original *traits.js*, the primary goal i
 
 In time, this fork will explore the possibility of leveraging traits as a basis for *gradual typing* in JavaScript libraries, along the lines of Clojure's [core.typed](https://github.com/clojure/core.typed).
 
-A more immediate goal is to leverage traits on top of [Google Polymer](http://www.polymer-project.org/), providing a mechanism for [Custom Element](http://www.w3.org/TR/custom-elements/) *composition* which is complementary to prototypal inheritance, e.g. the `extends` feature of [polymer-element](http://www.polymer-project.org/polymer.html). To that end, this library specifically targets [bower](http://bower.io/), which presently seems to be the favored system for distributing Web Components and expressing dependencies between them.
+A more immediate goal is to leverage traits on top of [Google Polymer](http://www.polymer-project.org/), providing a mechanism for [Custom Element](http://www.w3.org/TR/custom-elements/) *composition* which is complementary to prototypal inheritance, e.g. the `extends` feature of [polymer-element](http://www.polymer-project.org/polymer.html). To that end, this library specifically targets [bower](http://bower.io/), which presently seems to be the favored system for distributing Web Components and expressing dependencies in and between them.
 
 ## Installation
 
 You can install the latest release via [bower](http://bower.io/):
 
 ```shell
-bower install traits.js
+$ bower install traits.js
 ```
 
 It is also available through [npm](https://npmjs.org/package/traits.js):
 
 ```shell
-npm install traits.js
+$ npm install traits.js
 ```
 
 The installed package contains two consumable JavaScript files, `traits.js` and `traits.min.js`.
@@ -42,10 +42,10 @@ Load *traits.js* in your Node.js programs as you would any other module:
 var Trait = require("traits.js").Trait;
 ```
 
-In a browser, you can load *traits.js* with a `<script>` tag, as you would any other JavaScript library:
+In a Web browser, you can load *traits.js* with a `<script>` tag, as you would any other JavaScript library:
 
 ```html
-<script src="traits.min.js" type="text/javascript"></script>
+<script src="traits.min.js"></script>
 <script>
   Trait = traits.Trait;
 </script>
@@ -56,6 +56,44 @@ You can also load it as an AMD module, e.g. with [RequireJS](http://requirejs.or
 ## API and Examples
 
 Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the initial `0.4.0` release, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html), &nbsp;[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html), &nbsp;[HowToNode article](http://howtonode.org/traitsjs), &nbsp;[2011 PLASTIC Workshop paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf).
+
+## Development and Testing
+
+The npm and bower distributions are stripped down, so if you wish to hack on the library you should clone it:
+
+```shell
+$ git clone https://github.com/michaelsbradleyjr/traits.js
+...
+$ cd traits.js && npm install .
+```
+
+### Testing with Node.js
+
+Launch the mocha test runner with:
+
+```shell
+$ npm test
+```
+
+You can also have it run continuously, with re-runs triggered by changes to `*.js` files under the project's root.
+
+```shell
+$ npm run-script test-watch
+```
+
+### Testing with Web browsers
+
+To host the test suite locally, you will need a server &mdash; the ever handy [http-server](https://github.com/nodeapps/http-server) is highly recommended:
+
+```shell
+$ npm install -g http-server
+...
+$ http-server -p 12345 -c-1
+```
+
+Then point your browser/s to `http://localhost:12345/test/` &nbsp;or&nbsp; `http://localhost:12345/test/amd.html`.
+
+You can also load the test suite as located on the [gh-pages site](http://michaelsbradleyjr.github.io/traits.js/test/) for this repo: [script tag](http://michaelsbradleyjr.github.io/traits.js/test/), [amd](http://michaelsbradleyjr.github.io/traits.js/test/amd.html).
 
 ## Bugs
 

@@ -15,8 +15,8 @@
     // RequireJS
     else if (typeof define == "function" && define.amd) {
         require([
-            "../node_modules/chai/chai.js",
-            "../node_modules/lodash/dist/lodash.min.js",
+            "../support/chai.js",
+            "../support/lodash.min.js",
             "../traits.min.js"
         ], function (chai, lodash, traits) {
             definition(chai, lodash, traits);
