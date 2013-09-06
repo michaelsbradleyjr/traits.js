@@ -6,11 +6,27 @@
 
 ## Description
 
-This library is a pseudo-fork of the original [traits.js](http://soft.vub.ac.be/~tvcutsem/traitsjs/) by [Tom Van Cutsem](http://soft.vub.ac.be/soft/members/tomvancutsem).
+This library is a pseudo-fork of the original [traits.js](http://soft.vub.ac.be/~tvcutsem/traitsjs/) by [Tom Van Cutsem](http://soft.vub.ac.be/soft/members/tomvancutsem):
 
-It will share some similarities with another *traits.js* derivative, [light-traits](https://github.com/Gozala/light-traits/) by [Irakli Gozalishvili](https://github.com/Gozala), e.g. ECMAScript 5 shims will (eventually) *not* be included in the core library. However, it's intended to be a fresh start built atop the same original.
+<div style="position:relative;margin: 0 auto;width:94%">
+&ldquo;<a href="https://en.wikipedia.org/wiki/Trait_%28computer_programming%29">Traits</a> are a flexible language feature to factor out and recombine reusable pieces of code. They are a more robust alternative to multiple inheritance or mixins. They are more robust because name clashes must be resolved explicitly by composers, and because trait composition is order-independent (hence more declarative). To put it simply: if you combine two traits that define a method with the same name, your program will fail. Traits won't automatically give precedence to either one.&rdquo;
+</div>
+
+## Compatibility
+
+For 1-to-1 compatibility with the original *traits.js*, including the built-in ECMAScript 5 shims, please <a href="#installation">install</a> the latest `0.4.x` release. The `Trait` constructor is available on the object exported by the library:
+
+```javascript
+var Trait = require("traits.js").Trait; // NodeJS
+```
+&mdash;or&mdash;
+```javascript
+Trait = traits.Trait; // browser global scope
+```
 
 ## Goals
+
+This library will share some similarities with another *traits.js* derivative, [light-traits](https://github.com/Gozala/light-traits/) by [Irakli Gozalishvili](https://github.com/Gozala), e.g. ECMAScript 5 shims will (eventually) *not* be included in the core library. However, it's intended to be a fresh start built atop the same original.
 
 By retooling and experimenting with the original *traits.js*, the primary goal is to come to a deeper understanding of the concepts, implementation, benefits and trade-offs of traits-based composition in JavaScript.
 
@@ -36,7 +52,7 @@ The installed package contains two consumable JavaScript files, `traits.js` and 
 
 ## Usage
 
-Load *traits.js* in your Node.js programs as you would any other module:
+Load *traits.js* in your Node.js programs as you would any other module. The `Trait` constructor is available on the object exported by the library:
 
 ```javascript
 var Trait = require("traits.js").Trait;
@@ -55,7 +71,7 @@ You can also load it as an AMD module, e.g. with [RequireJS](http://requirejs.or
 
 ## API and Examples
 
-Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the initial `0.4.0` release, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html), &nbsp;[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html), &nbsp;[HowToNode article](http://howtonode.org/traitsjs), &nbsp;[2011 PLASTIC Workshop paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf).
+Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the `0.4.x` releases, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html), &nbsp;[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html), &nbsp;[HowToNode article](http://howtonode.org/traitsjs), &nbsp;[2011 PLASTIC Workshop paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf).
 
 ## Development and Testing
 
