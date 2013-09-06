@@ -72,7 +72,7 @@ You can also load it as an AMD module, e.g. with [RequireJS](http://requirejs.or
 
 ## API and Examples
 
-Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the `0.4.x` releases, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html), &nbsp;[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html), &nbsp;[HowToNode article](http://howtonode.org/traitsjs), &nbsp;[2011 PLASTIC Workshop paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf).
+Documentation will be provided in the [wiki](https://github.com/michaelsbradleyjr/traits.js/wiki). For the `0.4.x` releases, the API will exactly match that of the original library, and the latter's documentation can be consulted: &nbsp;[API](http://soft.vub.ac.be/~tvcutsem/traitsjs/api.html), &nbsp;[Tutorial](http://soft.vub.ac.be/~tvcutsem/traitsjs/tutorial.html), &nbsp;[HowToNode article](http://howtonode.org/traitsjs), &nbsp;[PLASTIC Workshop 2011 paper](http://es-lab.googlecode.com/files/traitsJS_PLASTIC2011_final.pdf).
 
 ## Development and Testing
 
