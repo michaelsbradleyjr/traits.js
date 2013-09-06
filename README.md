@@ -2,24 +2,24 @@
 
 # traits.js
 
-[Trait](https://en.wikipedia.org/wiki/Trait_%28computer_programming%29) composition library for JavaScript.
+Trait composition library for JavaScript.
 
 ## Description
 
 This library is a pseudo-fork of the original [traits.js](http://soft.vub.ac.be/~tvcutsem/traitsjs/) by [Tom Van Cutsem](http://soft.vub.ac.be/soft/members/tomvancutsem):
 
-<div style="position:relative;margin: 0 auto;width:94%">
-&ldquo;<a href="https://en.wikipedia.org/wiki/Trait_%28computer_programming%29">Traits</a> are a flexible language feature to factor out and recombine reusable pieces of code. They are a more robust alternative to multiple inheritance or mixins. They are more robust because name clashes must be resolved explicitly by composers, and because trait composition is order-independent (hence more declarative). To put it simply: if you combine two traits that define a method with the same name, your program will fail. Traits won't automatically give precedence to either one.&rdquo;
-</div>
+> <a href="https://en.wikipedia.org/wiki/Trait_(computer_programming)">Traits</a> are a flexible language feature to factor out and recombine reusable pieces of code. They are a more robust alternative to multiple inheritance or mixins. They are more robust because name clashes must be resolved explicitly by composers, and because trait composition is order-independent (hence more declarative). To put it simply: if you combine two traits that define a method with the same name, your program will fail. Traits won't automatically give precedence to either one.
 
 ## Compatibility
 
-For 1-to-1 compatibility with the original *traits.js*, including the built-in ECMAScript 5 shims, please <a href="#installation">install</a> the latest `0.4.x` release. The `Trait` constructor is available on the object exported by the library:
+For 1-to-1 compatibility with the original *traits.js*, including the built-in ECMAScript 5 shims, please <a href="#installation">install</a> the latest `0.4.x` release.
+
+The `Trait` constructor is available on the object <a href="#usage">exported</a> by the library:
 
 ```javascript
 var Trait = require("traits.js").Trait; // NodeJS
 ```
-&mdash;or&mdash;
+*&mdash;or&mdash;*
 ```javascript
 Trait = traits.Trait; // browser global scope
 ```
@@ -62,6 +62,7 @@ In a Web browser, you can load *traits.js* with a `<script>` tag, as you would a
 
 ```html
 <script src="traits.min.js"></script>
+<!-- `traits` is now in the global scope -->
 <script>
   Trait = traits.Trait;
 </script>
