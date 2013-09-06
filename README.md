@@ -126,7 +126,7 @@ For the original license text please refer to the [licenses](https://github.com/
 
 This software is Copyright (c) 2013 by Michael Bradley, Jr.
 
-The use and distribution terms for this software are covered by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) which can be found in the file [LICENSE.txt](http://michaelsbradleyjr.github.io/traits.js/LICENSE.txt) at the [root](https://github.com/michaelsbradleyjr/traits.js/tree/master/) of this distribution. By using this software in any fashion, you are agreeing to be bound by the terms of this license. You must not remove this notice, or any other, from this software.
+The use and distribution terms for this software are covered by the [Apache License, Version 2.0](http://opensource.org/licenses/Apache-2.0) which can be found in the file [LICENSE.txt](http://michaelsbradleyjr.github.io/traits.js/LICENSE.txt) at the [root](https://github.com/michaelsbradleyjr/traits.js/tree/master/) of this distribution. By using this software in any fashion, you are agreeing to be bound by the terms of this license. You must not remove this notice, or any other, from this software.
 
 ---------------------------------------
 

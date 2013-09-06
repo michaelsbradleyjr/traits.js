@@ -9,7 +9,7 @@
  * The use and distribution terms for this software are covered by the
  * Apache License, Version 2.0:
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * http://opensource.org/licenses/Apache-2.0
  * http://michaelsbradleyjr.github.io/traits.js/LICENSE.txt
  *
  * By using this software in any fashion, you are agreeing to be bound
