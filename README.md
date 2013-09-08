@@ -12,7 +12,7 @@ This library is a pseudo-fork of the original [traits.js](http://soft.vub.ac.be/
 
 ## Compatibility
 
-For 1-to-1 compatibility with the original *traits.js*, including the built-in ECMAScript 5 shims, please <a href="#installation">install</a> the latest `0.4.x` release.
+For 1-to-1 features and compatibility with the original *traits.js*, including the built-in ECMAScript 5 shims, please <a href="#installation">install</a> the latest `0.4.x` release.
 
 The `Trait` constructor is available on the object <a href="#usage">exported</a> by the library:
 

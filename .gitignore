@@ -9,6 +9,7 @@ fuse*
 
 bower_components/
 node_modules/
+scratch/
 
 npm-debug.log
 traits.min.js.gz

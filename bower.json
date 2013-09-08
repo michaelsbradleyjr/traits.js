@@ -5,6 +5,7 @@
     "ignore": [
         "bower_components",
         "node_modules",
+        "scratch",
         "scripts",
         "support",
         "test",
