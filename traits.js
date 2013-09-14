@@ -680,6 +680,8 @@
     }());
 
     traits.Trait = Trait;
+    traits.version = "0.4.1-pre";
+
     freeze(traits);
 
     return traits;
