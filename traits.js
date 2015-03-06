@@ -1,6 +1,6 @@
 /*///////////////////////////////// TRAITS.JS //////////////////////////////////
  *
- * Version 0.4.1-pre
+ * Version 0.4.1
  * Trait composition library for JavaScript
  * https://github.com/michaelsbradleyjr/traits.js
  *
@@ -680,7 +680,7 @@
     }());
 
     traits.Trait = Trait;
-    traits.version = "0.4.1-pre";
+    traits.version = "0.4.1";
 
     freeze(traits);
 

@@ -1,6 +1,6 @@
 {
     "name": "traits.js",
-    "version": "0.4.1-pre",
+    "version": "0.4.1",
     "description": "Trait composition library for JavaScript",
     "homepage": "https://github.com/michaelsbradleyjr/traits.js",
     "author": "Michael Bradley, Jr. <michaelsbradleyjr@gmail.com> (https://github.com/michaelsbradleyjr)",
