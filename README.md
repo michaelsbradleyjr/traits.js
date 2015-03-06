@@ -1,5 +1,13 @@
 [![Build Status](https://secure.travis-ci.org/michaelsbradleyjr/traits.js.png?branch=master)](https://travis-ci.org/michaelsbradleyjr/traits.js)
 
+# `Inactive`
+
+*This repository is no longer actively maintained. Please use or create a fork.*
+
+Recommended: **[trait](https://github.com/YR/trait)** by [YR](https://github.com/YR).
+
+N.B. *traits-based composition* seem to have lost none of its value as an alternative (or complement) to inheritance based programming in JavaScript. However, I found my needs better met by [ClojureScript](https://github.com/clojure/clojurescript) as I spent more time with that technology, and left off developing this library not long after I began working on it.
+
 # traits.js
 
 Trait composition library for JavaScript.
