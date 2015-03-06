@@ -6,7 +6,7 @@
 
 Recommended: **[trait](https://github.com/YR/trait)** by [YR](https://github.com/YR).
 
-N.B. *traits-based composition* seem to have lost none of its value as an alternative (or complement) to inheritance based programming in JavaScript. However, I found my needs better met by [ClojureScript](https://github.com/clojure/clojurescript) as I spent more time with that technology, and left off developing this library not long after I began working on it.
+N.B. since 2013, when I created this repository, *traits-based composition* seem to have lost none of its value as an alternative (or complement) to inheritance based programming in JavaScript. However, I found my needs better met by [ClojureScript](https://github.com/clojure/clojurescript) as I spent more time with that technology, and left off developing this library not long after I began working on it.
 
 # traits.js
 
