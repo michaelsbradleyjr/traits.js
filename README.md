@@ -38,7 +38,7 @@ This library will share some similarities with another *traits.js* derivative, [
 
 By retooling and experimenting with the original *traits.js*, the primary goal is to come to a deeper understanding of the concepts, implementation, benefits and trade-offs of traits-based composition in JavaScript.
 
-In time, this fork will explore the possibility of leveraging traits as a basis for *gradual typing* in JavaScript libraries, along the lines of Clojure's [core.typed](https://github.com/clojure/core.typed).
+In time, this fork may explore the possibility of leveraging traits as a basis for *gradual typing* in JavaScript libraries, along the lines of Clojure's [core.typed](https://github.com/clojure/core.typed).
 
 A more immediate goal is to leverage traits on top of [Google Polymer](http://www.polymer-project.org/), providing a mechanism for [Custom Element](http://www.w3.org/TR/custom-elements/) *composition* which is complementary to prototypal inheritance, e.g. the `extends` feature of [polymer-element](http://www.polymer-project.org/polymer.html). To that end, this library specifically targets [bower](http://bower.io/), which presently seems to be the favored system for distributing Web Components and expressing dependencies in and between them.
 
