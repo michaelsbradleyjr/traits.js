@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/michaelsbradleyjr/traits.js.png?branch=master)](https://travis-ci.org/michaelsbradleyjr/traits.js)
+[![Build Status](https://travis-ci.org/michaelsbradleyjr/traits.js.svg?branch=master)](https://travis-ci.org/michaelsbradleyjr/traits.js)
 
 # `Inactive`
 
